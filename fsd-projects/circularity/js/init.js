@@ -7,7 +7,7 @@ var init = function (window) {
         app = window.opspark.makeApp(),
         canvas = app.canvas, 
         view = app.view,
-        fps = draw.fps('#000');
+        fps = draw.fps('#ff0000');
         
     
     window.opspark.makeGame = function() {
@@ -20,6 +20,7 @@ var init = function (window) {
         ///////////////////
         
         // TODO 1 : Declare and initialize our variables
+        var circle
         var circles = []
         
 
@@ -47,7 +48,16 @@ var init = function (window) {
 
 
         // TODO 7 : Use a loop to create multiple circles
+        drawCircle()
+        drawCircle()
+        drawCircle()
+        drawCircle()
+        drawCircle()
+for (var loopsCompleted = 0; loopsCompleted < 175; loopsCompleted++) {
 
+            drawCircle();
+
+        }
 
 
 
